@@ -21,6 +21,6 @@ into a tibble.
 }
 \examples{
 \dontrun{
-fars_complete_2013 <- fars_read("accident_2013.csv.bz2")
+fars_complete_2013 <- farsR:::fars_read("accident_2013.csv.bz2")
 }
 }

@@ -20,7 +20,7 @@ NULL
 #' an error is thrown.
 #' @examples
 #' \dontrun{
-#' fars_complete_2013 <- fars_read("accident_2013.csv.bz2")
+#' fars_complete_2013 <- farsR:::fars_read("accident_2013.csv.bz2")
 #' }
 fars_read <- function(filename) {
   if (!file.exists(filename))
@@ -37,7 +37,9 @@ fars_read <- function(filename) {
 #' @return A character vector containing the complete file name of a compressed
 #' FARS report.
 #' @examples
-#' make_filename(2013)
+#' \dontrun{
+#' farsR:::make_filename(2013)
+#' }
 make_filename <- function(year) {
   year <- as.integer(year)
   sprintf("accident_%d.csv.bz2", year)
@@ -59,9 +61,9 @@ make_filename <- function(year) {
 #' FARS data set (\code{MONTH} and \code{year}). Each row corresponds to a single accident.
 #' @examples
 #' \dontrun{
-#' fars2013 <- fars_read_years(2013)
-#' fars2013 <- fars_read_years("2013")
-#' fars1314 <- fars_read_years(c(2013, 2014))
+#' fars2013 <- farsR:::fars_read_years(2013)
+#' fars2013 <- farsR:::fars_read_years("2013")
+#' fars1314 <- farsR:::fars_read_years(c(2013, 2014))
 #' }
 fars_read_years <- function(years) {
   lapply(years, function(year) {

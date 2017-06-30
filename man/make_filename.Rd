@@ -17,5 +17,7 @@ FARS report.
 Create valid file name for a compressed FARS report for a given year
 }
 \examples{
-make_filename(2013)
+\dontrun{
+farsR:::make_filename(2013)
+}
 }

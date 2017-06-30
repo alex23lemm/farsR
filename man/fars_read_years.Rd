@@ -26,8 +26,8 @@ report files in the current working directory.
 }
 \examples{
 \dontrun{
-fars2013 <- fars_read_years(2013)
-fars2013 <- fars_read_years("2013")
-fars1314 <- fars_read_years(c(2013, 2014))
+fars2013 <- farsR:::fars_read_years(2013)
+fars2013 <- farsR:::fars_read_years("2013")
+fars1314 <- farsR:::fars_read_years(c(2013, 2014))
 }
 }
