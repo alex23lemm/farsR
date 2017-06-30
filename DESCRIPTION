@@ -1,10 +1,11 @@
 Package: farsR
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Summarize and plot data about fatal injuries suffered in motor vehicle traffic crashes in the US.
+Version: 0.1
+Authors@R: person("Alex", "Lemm", email = "alex23lemm@gmail.com", role = c("aut", "cre"))
+Description: Little suite to summarize and plot data downloaded from the US 
+  National Highway Traffic Safety Administration's Fatality Analysis Reporting System
 Depends: R (>= 3.4.0)
-License: What license is it under?
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat,
