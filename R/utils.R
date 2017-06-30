@@ -20,7 +20,7 @@ NULL
 #' an error is thrown.
 #' @examples
 #' \dontrun{
-#' fars_complete_2013 <- fars_read("accident_2013-csv.bz2")
+#' fars_complete_2013 <- fars_read("accident_2013.csv.bz2")
 #' }
 fars_read <- function(filename) {
   if (!file.exists(filename))
