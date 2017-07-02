@@ -17,9 +17,8 @@
 #' fars_map_state(13, 2014)
 #' }
 #' @export
+#' @import maps
 fars_map_state <- function(state.num, year) {
-  if (!require(maps))
-    stop("the 'maps' package needs to be installed first")
 
   filename <- make_filename(year)
   data <- fars_read(filename)

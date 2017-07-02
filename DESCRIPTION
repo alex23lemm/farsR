@@ -3,7 +3,8 @@ Title: Summarize and plot data about fatal injuries suffered in motor vehicle tr
 Version: 0.1
 Authors@R: person("Alex", "Lemm", email = "alex23lemm@gmail.com", role = c("aut", "cre"))
 Description: Little suite to summarize and plot data downloaded from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
-Depends: R (>= 3.4.0)
+Depends: R (>= 3.4.0),
+    maps
 License: CC0
 Encoding: UTF-8
 LazyData: true
@@ -12,7 +13,6 @@ Suggests: testthat,
     purrr
 RoxygenNote: 6.0.1
 Imports: graphics,
-    maps,
     tidyr,
     dplyr,
     magrittr,
