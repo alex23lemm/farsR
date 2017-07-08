@@ -29,7 +29,7 @@ library(farsR)
 
 There are two main functions to process and plot FARS data:
 
--   `fars_summary_years()` summarizes FARS report accidents by month and year in a tibble
+-   `fars_summarize_years()` summarizes FARS report accidents by month and year in a tibble
 
 -   `fars_map_state()` plots all accident locations for a given year on a US federal state map
 
